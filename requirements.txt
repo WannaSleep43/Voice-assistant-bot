@@ -1,0 +1,4 @@
+aiogram
+silero
+numpy
+torch
