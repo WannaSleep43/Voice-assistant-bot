@@ -2,8 +2,8 @@ from aiogram import Bot, types
 from aiogram.types import ContentType
 from aiogram.utils import executor
 from aiogram.dispatcher import Dispatcher
-import librosa
 import soundfile as sf
+import librosa
 from JokesGen import *
 from TextToSpeech import *
 from SpeechToText import *
