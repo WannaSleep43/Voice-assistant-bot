@@ -1,4 +1,6 @@
 aiogram
-silero
 numpy
 torch
+soundfile
+librosa
+vosk
