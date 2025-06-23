@@ -8,9 +8,8 @@ from JokesGen import *
 from TextToSpeech import *
 from SpeechToText import *
 
-
 # bot consts
-BOT_TOKEN = '5826331306:AAGsZGkD2dtC9s78yfg-A4A4kZbj_ekQbNY'
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher(bot)
 
